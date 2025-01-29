@@ -180,9 +180,10 @@ isopen=n")%3bphpinfo()%3bdefine("isopen",+"n&url=https%3A%2F%2Fwww.seacms.com&ti
 Upon debugging and setting breakpoints, we can see that the `phpinfo();` was successfully injected into the `str` variable.
 ![](./public/6.png)
 
-![](./public/7.png)
 
 After accessing the PHP path, the injected PHP code is successfully executed:
+![](./public/7.png)
+
 ```r
 data/admin/weixin.php
 ```
