@@ -84,4 +84,4 @@ Finally, visiting the PHP file executes the injected PHP code:
 ```r
 data/admin/smtp.php
 ```
-![](./public/7-6png)
+![](./public/7-6.png)
