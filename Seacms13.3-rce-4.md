@@ -43,7 +43,7 @@ The web page is located at the backend management path `0omeqd/admin_ping.php`. 
 123456789";phpinfo();$a="1
 ```
 
-![Image1](./public/4-2.png.png)
+![Image1](./public/4-2.png)
 
 After accessing the PHP path, the PHP code executes successfully.
 
@@ -51,4 +51,4 @@ After accessing the PHP path, the PHP code executes successfully.
 data/admin/ping.php
 ```
 
-![Image1](./public/4-3.png.png)
+![Image1](./public/4-3.png)
