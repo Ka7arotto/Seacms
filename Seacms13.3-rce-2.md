@@ -41,9 +41,9 @@ if($action=="set")
 }
 ```
 
-The web page in the backend management contains the system's mail server settings. We click "Confirm" and intercept the request.
-
-We pass the parameter `smtppsw` and concatenate PHP code. The PoC is:  
+The IP security settings of the system in the background management of the web page, we click to confirm the packet capture
+![](./public/7-7.png)
+We pass the parameter `ip` and concatenate PHP code. The PoC is:  
 ```r
 127.0.0.1";phpinfo();$a="1
 ```
