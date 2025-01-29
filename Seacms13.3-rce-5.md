@@ -2,7 +2,7 @@
 
 ### Introduction
 
-SeaCMS v13.3 has a remote code execution vulnerability. This vulnerability arises because although `admin_files.php` imposes certain restrictions on edited files, an attacker can still bypass these restrictions and write code using path traversal, allowing an authenticated attacker to exploit the vulnerability to execute arbitrary commands and gain system privileges.
+SeaCMS v13.3 has a remote code execution vulnerability. This vulnerability is caused by the fact that although `admin_files.php` imposes certain restrictions on edited file suffixes, an attacker can achieve command execution and gain system privileges by writing to the admin_files.htm file, in conjunction with file inclusion.
 
 SeaCMS official website: [SeaCMS - Open Source Free PHP Movie System, Movie CMS, Video CMS, Film CMS, SEACMS](https://www.seacms.com/)
 
