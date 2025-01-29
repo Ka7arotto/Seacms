@@ -2,7 +2,7 @@
 
 ### Introduction
 
-SeaCMS v13.3 has a remote code execution vulnerability. This vulnerability is caused by the fact that although `admin_weixin.php` imposes certain restrictions on edited files, an attacker can still bypass these restrictions and write code in a way to splice bypass, allowing an authenticated attacker to exploit the vulnerability to execute arbitrary commands and gain system privileges.
+SeaCMS v13.3 has a remote code execution vulnerability. This vulnerability is caused by the fact that although `admin_ip.php` imposes certain restrictions on edited files, an attacker can still bypass these restrictions and write code in a way to splice bypass, allowing an authenticated attacker to exploit the vulnerability to execute arbitrary commands and gain system privileges.
 
 SeaCMS official website: [SeaCMS - Open Source Free PHP Movie System, Movie CMS, Video CMS, Film CMS, SEACMS](https://www.seacms.com/)
 
