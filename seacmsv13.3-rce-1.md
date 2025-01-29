@@ -7,7 +7,7 @@ SeaCMS v13.3 has a remote code execution vulnerability. This vulnerability is ca
 SeaCMS official website: [SeaCMS - Open Source Free PHP Movie System, Movie CMS, Video CMS, Film CMS, SEACMS](https://www.seacms.com/)
 
 Click to download
-!()[./public/1.png]
+![](./public/1.png)
 
 You can see the latest version v13.3
 ![](./public/2.png)
