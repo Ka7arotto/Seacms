@@ -4,6 +4,14 @@
 
 SeaCMS v13.3 is vulnerable to an arbitrary file read vulnerability. This vulnerability is located in the utility file `admin_safe_file.php`, where insufficient parameter validation allows attackers to read arbitrary files.
 
+SeaCMS official website: [SeaCMS - Open Source Free PHP Movie System, Movie CMS, Video CMS, Film CMS, SEACMS](https://www.seacms.com/)
+
+Click to download
+![](./public/1.png)
+
+You can see the latest version v13.3
+![](./public/2.png)
+
 ### Vulnerability Analysis
 
 The vulnerability exists in the `admin_safe_file.php` file, where the `file_get_contents` function is used without proper restrictions on the input parameters, leading to arbitrary file read.
