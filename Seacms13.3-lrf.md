@@ -1,4 +1,4 @@
-## Arbitrary File Read and RCE in admin_safe_file.php
+## Arbitrary File Read  in admin_safe_file.php
 
 ### Introduction
 
